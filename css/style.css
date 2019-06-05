@@ -1,0 +1,121 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+.section {
+
+	position: relative;
+	width: 100%;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	margin-bottom: 100px;
+
+}
+
+.section h1 {
+	text-align: center;
+	font-size: 6rem;
+	font-family: 'Ranga', cursive;
+	/*background-color: green;*/
+	padding: 20px;
+	margin: 15px;
+	z-index: 1;
+	opacity: 0.6;
+	color: white;
+}
+
+.video-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 100%;
+	min-width: 100%;
+
+}
+h2 {
+	text-align: center;
+	font-family: 'Ranga', cursive;
+	font-size: 4rem;
+}
+
+	nav ul {
+
+				padding: 0px;
+				margin: 0px;
+				list-style-type: none;
+				background-color: #d67433;
+				
+			}
+			nav li {
+				display: inline-block;
+				width: 100px;
+				height: 40px;
+				margin:0px;
+				padding: 0px;
+				border-right: 1px solid #cccccc;
+				text-align: center;
+				line-height: 40px;
+			}
+			nav li :hover {
+				background-color: #2b6591;
+			}
+			nav li a {
+				display: block;
+				text-decoration: none;
+				color: #FFFFFF;
+			}
+
+/*bouton*/
+
+			a.bouton5 {
+display: block;
+width: 150px;
+line-height: 40px;
+background: url(http://2.bp.blogspot.com/-i0uDtWEeyLE/VoUt32pSFkI/AAAAAAAADUM/obESNovWmiM/s1600/bouton-orange.png);
+color: #000000;
+-webkit-transition: all 0.7s ease-out 0s;
+-moz-transition: all 0.7s ease-out 0s;
+transition: all 0.7s ease-out 0s;
+font-weight: bold;
+text-align: center;
+z-index: 2;
+margin-top: 110px;
+margin-right: 150px;
+position: absolute;
+}
+a.bouton5:hover {
+background: url(http://3.bp.blogspot.com/-FzfYdG3-fyU/VoUt30PxyfI/AAAAAAAADUI/6R-bHnZI630/s1600/bouton-orange2.png);
+color: #ffffff;
+}
+
+/*fin bouton*/
+
+.mb30 {
+	margin-bottom: 30px;
+}
+.page-header {
+	padding-bottom: 9px;
+	margin: 40px 0 20px;
+	border-bottom: 1px solid #1DBEDD;
+}
+
+
+
+
+
+
+
+/*.color-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: lightblue;
+	width: 100%;
+	height: 100vh;
+	opacity: 0.3;
+}*/

@@ -1,0 +1,188 @@
+/** {
+	margin:0;
+	padding:0;
+}*/
+
+.section {
+
+	position: relative;
+	width: 100%;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	margin-bottom: 90px;
+
+}
+
+.section h1 {
+	text-align: center;
+	font-size: 6rem;
+	font-family: 'Ranga', cursive;
+	/*background-color: green;*/
+	padding: 20px;
+	margin: 15px;
+	z-index: 1;
+	/*opacity: 0.6;*/
+	color: #a0a8ef;
+}
+
+.video-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 100%;
+	min-width: 100%;
+
+}
+h2 {
+	text-align: center;
+	font-family: 'Ranga', cursive;
+	margin-left: 20px;
+	
+}
+
+	nav ul {
+
+				padding: 0px;
+				margin: 0px;
+				list-style-type: none;
+				background-color: #0d375b;
+				
+			}
+			nav li {
+				display: inline-block;
+				width: 100px;
+				height: 40px;
+				margin:0px;
+				padding: 0px;
+				border-right: 1px solid #cccccc;
+				text-align: center;
+				line-height: 40px;
+			}
+			nav li :hover {
+				background-color: #2d5a82;
+				color: orange;
+			}
+			nav li a {
+				display: block;
+				text-decoration: none;
+				color: #FFFFFF;
+			}
+
+
+
+.mb30 {
+	margin-bottom: 30px;
+}
+.page-header {
+	padding-bottom: 9px;
+	margin: 40px 0 20px;
+	border-bottom: 1px solid #1DBEDD;
+}
+
+.backcolor {
+	position: relative;
+	background-color: #151751;
+	width: 100%;
+	height: 200px;
+	margin-bottom: 10px;
+}
+.backcolor h2 {
+	color: white;
+	margin-top: 40px;
+	margin-left: 50px;
+
+	 position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 7s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+.backcolorfooter {
+	position: relative;
+	background-color: #151751;
+	width: 100%;
+	height: 300px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+
+
+}
+.backcolorfooter h2 {
+		color: white;
+		margin-top: 50px;
+		margin-right: 50%;
+		font-family: 'Orbitron', sans-serif;
+
+
+
+}
+.domaine {
+	position: absolute;
+	right: 130px;
+}
+	
+	
+
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+
+
+.block1 {
+	
+
+	background-color: #96eae9;
+	width: 100%;
+
+
+}
+.block2{
+	margin-bottom: 30px;
+}
+
+
+.cols4 {
+	margin-top: 20px;
+}
+.cols3 {
+	margin-top: 50px;
+}
+.cols2 {
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+/*.color-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: lightblue;
+	width: 100%;
+	height: 100vh;
+	opacity: 0.3;
+}*/
