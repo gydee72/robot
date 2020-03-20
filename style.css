@@ -57,7 +57,7 @@
         min-height: 38px;
         border-radius: 2px;
     }
-	.contact-form .form-control {
+	.contact-form .form-control { 
 		border-color: #e2c705;
 	}
 	.contact-form .form-control:focus {
